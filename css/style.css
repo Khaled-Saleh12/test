@@ -1,0 +1,210 @@
+/* font-family: 'Noto Sans Arabic', sans-serif;
+   font-family: 'Noto Serif', serif; 
+   font-family: 'Montserrat', sans-serif;
+*/
+/* important */
+.arabicText{
+    font-family: 'Noto Serif', serif; 
+    font-size: 1.5rem;
+}
+
+h3,a,h4,h1{
+    font-family: 'Montserrat', sans-serif;   
+}
+/* navbar section */
+.navbarLogosize{
+    height: 5rem;
+    width: 5rem;
+}
+.navbarlogo{
+    width: 100%;
+    height: 100%;
+}
+.navbar-brand-toptext{
+    text-align: center;
+}
+.navBarlistitem{
+    justify-content:end;
+}
+.navbarbg{
+    background-color: #2D2424;
+}
+.navbarTextColor{
+    color: #E0C097;
+    user-select: none;
+}
+.navbarTextColor:hover{
+    color: #e6d9c9;
+}
+.nav-item{
+    padding-left: 0rem;
+}
+
+.nav-link{
+    font-size: medium;
+    font-weight: lighter;
+}
+
+@media (max-width: 992px){
+    .nav-item{
+        padding-top: 0.5rem;
+    }
+    .nav-link{
+        font-size: xx-large;
+        font-weight: lighter;
+    }
+    .nav-link:hover{
+        background-color: #5C3D2E;
+    }
+    .arabicText{
+        font-size: x-large;
+    }
+}
+/* preview section */
+.textColor{
+    color: #2D2424;
+    user-select: none;
+    text-decoration:none;
+}
+.textColor1{
+    color: #88624f;
+    user-select: none;
+    text-decoration:none;
+    font-size: xx-large;
+}
+.textColor1:hover{
+    color: #B85C38;
+}
+.topPreviewText{
+    margin-top: 8rem;
+    text-align: center;
+    user-select: none;
+    text-decoration:none;
+}
+.previews{
+    padding: 0;
+}
+.previewCon{
+    margin: 0.5% 2%;
+}
+.previewimg{
+    padding: 0;
+    margin: 0;
+    height: 34rem;
+    width: 100%;
+    border: solid;
+    border-color: #5C3D2E;
+}
+
+@media (max-width: 992px){
+    .previewvideo{
+        margin-top: 2rem;
+    }
+    .previewimg{
+        height :50rem 
+    }
+}
+
+/* servsice */
+.topServiceText{
+    margin-top: 4rem;
+    text-align: left;
+    user-select: none;
+    text-decoration:none;
+}
+.servimg{
+    padding: 0;
+    margin-bottom: 5%;
+    height: 10rem;
+    width: 100%;
+}
+
+.sameLine{
+    margin: 2% 2.05% 2% 2.05%;  
+    text-align: center;
+    justify-content: center;
+}
+.servicecard{
+    margin: 0 12%;
+}
+.bgcolor{
+    background-color: #2D2424;
+}
+.bgcolorService{
+    background-color: #f3ede6;
+}
+.serviceBorder{
+    padding-top: 3%;
+    border: solid;
+    border-width: 2px;
+    border-color: #B85C38;
+}
+.serviceBorder-right{
+    border-right: solid;
+    border-width: 2px;
+    border-color: #fff;
+}
+.serviceBorder-left{
+    border-left: solid;
+    border-width: 2px;
+    border-color: #fff;
+}
+
+.serviceText{
+    color: #E0C097;
+    user-select: none;
+}
+.serviceText1{
+    color: #a38b6d;
+    user-select: none;
+}
+
+@media (max-width: 992px){
+    .servicecard1{
+        margin: 0;
+        margin-bottom: 3%;
+        height: 30rem;
+    }
+    .servimg{
+        height: 21rem;
+        width: 80%;
+    }
+}
+
+/* about me */
+.aboutmeimg{
+    width: 90%;
+    height: 25rem;
+    border:solid;
+    border-color: #2D2424;
+}
+.col1aboutme{
+    border:solid;
+    border-color: #88624f; 
+}
+
+@media (max-width: 992px){
+    .ft{
+        width: 50%;
+        margin: auto;
+    }
+    .topServiceText{
+        text-align: center;
+    }
+    .aboutmecontext{
+        padding-top: 2rem;
+        text-align: center;
+    }
+}
+
+/* contact Me */
+.imgresize{
+    width: 7%;
+}
+.servicecard1:hover{
+    border-width: 0.2rem;
+    border-color: red;
+}
+.bgcolorContact{
+    background-color: #f3ede6;
+}

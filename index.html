@@ -2,50 +2,161 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <title>AboEliasCar</title>
+        <!--fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Sans+Arabic&family=Noto+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
+        <!-- bootstrap css -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <!-- bootstrap JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+        <!--stylesheet+icon-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="icon" href="service.png">
     </head>
     <body>
-        <center>
-            <h1>Abo Alias Car[كماليات ابو الياس]</h1>
-        </center>
-        <hr>
-        <center>
-            <h2>Visit Us [Tullkrem - Azbet Shoufa-Abo Alias Car]</h2>
-        </center>
-        <h2>Services</h2>
-        <ul>
-            <li>Black Your Windows[تعتيم كزاز الشبابيك]</li>
-            <br>
-            <img src="img/black_window.jpg" alt="black_window">
-            <br>
-            <br>
-            <li>Add Black Cover At The Top Of the Car [اضافة غلاف اسود فوق السيارة]</li>
-            <br>
-            <img src="img/black_cover.jpg" alt="black_cover">
-            <br>
-            <br>
-            <li>Polish car [عمل بوليش للسيارة]</li>
-            <br>
-            <img src="img/polish_car.jpg" alt="polish_car">
-            <br>
-            <br>
-            <li>Change The Oil Of The Car [تغير زيت السيارة]</li>
-            <br>
-            <img src="img/oil_car.jpg" alt="oil_car">
-            <br>
-            <br>
-            <li>Change Or Check Car Fuse [فحص وتغير فيوز السيارة]</li>
-            <br>
-            <img src="img/fuse_car.jpg" alt="fuse_car">
-            <br>
-            <br>
-            <li>Change Or Check Car Lights [تغير او فحص ضوء السيارة]</li>
-            <br>
-            <img src="img/car_light.jpg" alt="car_light">
-            <br>
-            <br>
-            <li><a href="store.html">Store-items</a></li>
-            <br>
-            <li><a href="me.html">Contact-Me</a></li>
-        </ul>
+        <!--navbar section-->
+        <section id="thenavbar">
+            <nav class="navbar fixed-top navbar-expand-lg navbarbg">
+                <div class="container">
+                    <div class="navbarLogosize">
+                        <img class="navbarlogo"src="service1.png" alt="logo">
+                    </div>
+                    <div class="me-auto navbar-brand-toptext ms-4 pt-2">
+                        <h3 class="navbarTextColor">AboElias accessories</h3>
+                        <p class="navbarTextColor arabicText">كماليات ابو الياس</p>
+                    </div>
+                    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse ms-auto navBarlistitem overflow-hidden" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a href="index.html" class="nav-link navbarTextColor" >Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link navbarTextColor" >Store</a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="https://www.tiktok.com/@waelsaleh0" class="nav-link navbarTextColor">MyWork</a>
+                          </li>
+                          <li class="nav-item">
+                            <a  class="nav-link navbarTextColor">About Me</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link navbarTextColor">VisitNow Gps</a>
+                          </li>
+                        </ul>
+                      </div>
+                </div>   
+            </nav>
+        </section>
+        <!--Preview Section-->
+        <section id="preview">
+            <div class="container previews">
+                <div class="topPreviewText">
+                    <h3 class="textColor">This A preview <a href="https://www.tiktok.com/@waelsaleh0" class="textColor1">More Here</a></h3>
+                </div>
+                <div class="row previewCon">
+                    <div class="col-lg-6">
+                        <img src="img/preview.jpg" class="previewimg" alt="preview">
+                    </div>
+                    <div class="col-lg-6">
+                        <video  class="previewimg bg-dark previewvideo" controls  >
+                            <source src="video/video1.mp4" type="video/mp4">
+                        </video
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Service section-->
+        <section class="" id="service">
+            <div class="container pb-1 bgcolorService">
+                <div class="container">
+                    <div class="topServiceText">
+                        <h3 class="pt-4 pb-4">Services</h3>
+                    </div>
+                    <div class="row sameLine">
+                        <div class="col-lg-3 serviceBorder bgcolor servicecard1">
+                            <h4 class="serviceText overlay">Black Your Windows</h1>
+                            <p class=" arabicText fs-5 c-light serviceText1 overlay">تعتيم كزاز الشبابيك</p>
+                            <img class="servimg overlay" src="img/black_window.jpg" alt="service">
+                        </div>
+                        <div class="col-lg-3 servicecard servicecard1 serviceBorder serviceBorder bgcolor serviceText1">
+                            <h4 class="serviceText">Black Cover</h1>
+                            <p class=" arabicText fs-5 serviceText1">اضافة غلاف اسود فوق السيارة</p>
+                            <img class="servimg" src="img/black-cover.webp" alt="service" >
+                        </div>
+                        <div class="col-lg-3 serviceBorder servicecard1 bgcolor">
+                            <h4 class="serviceText">Do Polish  To The Car </h1>
+                            <p class="serviceText1  fs-5 arabicText">عمل بوليش للسيارة</p>
+                            <img class="servimg" src="img/polish_car.jpg" alt="service">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row sameLine">
+                        <div class="col-lg-3 serviceBorder servicecard1 bgcolor">
+                            <h4 class="serviceText">install ALL Car Accessories</h1>
+                            <p class="serviceText1 fs-5 arabicText">تركيب جميع اكسسوارات السياره</p>
+                            <img class="servimg" src="img/inside.jpg" alt="service">
+                        </div>
+                        <div class="col-lg-3 servicecard serviceBorder servicecard1 serviceBorder bgcolor">
+                            <h4 class="serviceText">Change Car Fuse</h1>
+                            <p class="serviceText1 fs-5 arabicText">فحص أو تغير فيوز السيارة</p>
+                            <img class="servimg" src="img/fuse_car.jpg" alt="service">
+                        </div>
+                        <div class="col-lg-3 serviceBorder servicecard1 bgcolor">
+                            <h4 class="serviceText">Change Car Lights</h1>
+                            <p class="serviceText1 fs-5 arabicText">تغير او فحص ضوء السيارة</p>
+                            <img class="servimg" src="img/car_light.jpg" alt="service">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--about me-->
+        <section  id="aboutme">
+            <div class="container bg-light pb-4">
+                <div class="topServiceText">
+                    <h3 class="pt-4 pb-4">About Me</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 text-center align-middle ft">
+                        <div class="col1aboutme pt-3 pb-3 pe-0 ps-0">
+                            <img class="aboutmeimg" src="img/me.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 aboutmecontext">
+                        <h1 class="pb-4">My Name Wael Saleh</h1>
+                        <p class="pb-3">وائل صالح [ابو الياس] خبره 5 سنين لتعديل السيارات</p>
+                        <h3 class="pb-4">Age : <span style="color: #a38b6d;">27</span></h3>
+                        <h3 class="pb-4">Email : <span style="color: #a38b6d;">AboEliascar@gmail.com</span></h3>
+                        <h3 class="pb-4">Phone : <span style="color: #a38b6d;">0598520637</span></h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Contact me section-->
+        <section>
+            <div class="container mt-4 pb-4 pt-4 bgcolorContact">
+                <div class="text-left">
+                    <a>Click to Visit</a><span>  </span><a></a>
+                </div>
+                <div class="text-center">
+                    <p>[أبو الياس كار لكماليات السيارات زورونا [طولكرم-عزبة شوفة- بجانب المسجد القديم</p>
+                </div>
+                <div class="text-center">
+                    Copyright 2021-2022 | All Rights Reserved.<br>
+                    AboEliasCar Website is Powered by Khaled Saleh.
+                </div>
+                <div class="text-center mt-1">
+                    <a href=""><img class="imgresize" src="service.png" alt=""></a>
+                   <a href="https://www.facebook.com/AboEliasCar"> <img class="imgresize" src="img/facebook.png" alt=""></a>
+                   <a href="https://www.tiktok.com/@waelsaleh0"> <img class="imgresize" src="img/tiktok.png" alt=""></a>
+                </div>
+            </div>
+        </section>
     </body>
 </html>
