@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>AboEliasCar</title>
         <!--fonts-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,124 +12,119 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
         <!-- bootstrap JavaScript -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-        <!--stylesheet+icon-->
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="icon" href="service.png">
+        <!--stylesheet-->
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <!--navbar section-->
-        <section id="thenavbar">
-            <nav class="navbar fixed-top navbar-expand-lg navbarbg">
-                <div class="container">
-                    <div class="navbarLogosize">
-                        <img class="navbarlogo"src="service1.png" alt="logo">
-                    </div>
-                    <div class="me-auto navbar-brand-toptext ms-4 pt-2">
-                        <h3 class="navbarTextColor">AboElias accessories</h3>
-                        <p class="navbarTextColor arabicText">كماليات ابو الياس</p>
-                    </div>
-                    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse ms-auto navBarlistitem overflow-hidden" id="navbarNav">
-                        <ul class="navbar-nav">
-                          <li class="nav-item">
-                            <a href="index.html" class="nav-link navbarTextColor" >Home</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link navbarTextColor" >Store</a>
-                          </li>
-                          <li class="nav-item">
-                            <a href="https://www.tiktok.com/@waelsaleh0" class="nav-link navbarTextColor">MyWork</a>
-                          </li>
-                          <li class="nav-item">
-                            <a  class="nav-link navbarTextColor">About Me</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link navbarTextColor">VisitNow Gps</a>
-                          </li>
-                        </ul>
+        <section id="topnavbar">
+        <nav class="navbar navbar-expand-lg bg-light fixed-top pt-0 pb-0">
+            <div class="container-fluid">
+                <a class="navbar-brand nav-link" href="#"><img src="service1.png" alt=""   class="brandimg align-text-center">أبو الياس كار</a>
+                <button class="navbar-toggler bg-light me-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">الخدمات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutme">معلومات عني</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " >Disabled</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+          </nav>
+        </section>
+        <section class="whiteSection bg-light" id="preview">
+            <div class="container-fluid staticpadding">
+                <h1 class="topSectionCenter">نظره سريعة على بعض الأعمال</h1>
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active ">
+                        <img src="img/preview.jpg" class="d-block carousel-img" alt="...">
                       </div>
-                </div>   
-            </nav>
-        </section>
-        <!--Preview Section-->
-        <section id="preview">
-            <div class="container previews">
-                <div class="topPreviewText">
-                    <h3 class="textColor">This A preview <a href="https://www.tiktok.com/@waelsaleh0" class="textColor1">More Here</a></h3>
-                </div>
-                <div class="row previewCon">
-                    <div class="col-lg-6">
-                        <img src="img/preview.jpg" class="previewimg" alt="preview">
+                      <div class="carousel-item ">
+                            <video width="320" height="240" controls class="h-100 w-100">
+                                <source src="video/video1.mp4" type="video/mp4">
+                            </video>
+                      </div>
+                      <div class="carousel-item ">
+                        <video width="320" height="240" controls class="h-100 w-100">
+                            <source src="video/video2.mp4" type="video/mp4">
+                        </video>
+                        </div>
+                        <div class="carousel-item ">
+                            <video width="320" height="240" controls autoplay class="h-100 w-100">
+                                <source src="video/video3.mp4" type="video/mp4">
+                            </video>
+                            </div>
+                            <div class="carousel-item">
+                                <video width="320" height="240" controls class="h-100 w-100">
+                                    <source src="video/video4.mp4" type="video/mp4">
+                                </video>
+                                </div>
                     </div>
-                    <div class="col-lg-6">
-                        <video  class="previewimg bg-dark previewvideo" controls  >
-                            <source src="video/video1.mp4" type="video/mp4">
-                        </video
-                    </div>
-                </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
             </div>
         </section>
-        <!--Service section-->
-        <section class="" id="service">
-            <div class="container pb-1 bgcolorService">
-                <div class="container">
-                    <div class="topServiceText">
-                        <h3 class="pt-4 pb-4">Services</h3>
-                    </div>
-                    <div class="row sameLine">
-                        <div class="col-lg-3 serviceBorder bgcolor servicecard1">
-                            <h4 class="serviceText overlay">Black Your Windows</h1>
-                            <p class=" arabicText fs-5 c-light serviceText1 overlay">تعتيم كزاز الشبابيك</p>
-                            <img class="servimg overlay" src="img/black_window.jpg" alt="service">
-                        </div>
-                        <div class="col-lg-3 servicecard servicecard1 serviceBorder serviceBorder bgcolor serviceText1">
-                            <h4 class="serviceText">Black Cover</h1>
-                            <p class=" arabicText fs-5 serviceText1">اضافة غلاف اسود فوق السيارة</p>
-                            <img class="servimg" src="img/black-cover.webp" alt="service" >
-                        </div>
-                        <div class="col-lg-3 serviceBorder servicecard1 bgcolor">
-                            <h4 class="serviceText">Do Polish  To The Car </h1>
-                            <p class="serviceText1  fs-5 arabicText">عمل بوليش للسيارة</p>
-                            <img class="servimg" src="img/polish_car.jpg" alt="service">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row sameLine">
-                        <div class="col-lg-3 serviceBorder servicecard1 bgcolor">
-                            <h4 class="serviceText">install ALL Car Accessories</h1>
-                            <p class="serviceText1 fs-5 arabicText">تركيب جميع اكسسوارات السياره</p>
-                            <img class="servimg" src="img/inside.jpg" alt="service">
-                        </div>
-                        <div class="col-lg-3 servicecard serviceBorder servicecard1 serviceBorder bgcolor">
-                            <h4 class="serviceText">Change Car Fuse</h1>
-                            <p class="serviceText1 fs-5 arabicText">فحص أو تغير فيوز السيارة</p>
-                            <img class="servimg" src="img/fuse_car.jpg" alt="service">
-                        </div>
-                        <div class="col-lg-3 serviceBorder servicecard1 bgcolor">
-                            <h4 class="serviceText">Change Car Lights</h1>
-                            <p class="serviceText1 fs-5 arabicText">تغير او فحص ضوء السيارة</p>
-                            <img class="servimg" src="img/car_light.jpg" alt="service">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--about me-->
-        <section  id="aboutme">
-            <div class="container bg-light pb-4">
-                <div class="topServiceText">
-                    <h3 class="pt-4 pb-4">About Me</h3>
-                </div>
+        <section  class="coloredSection" id="service">
+            <div class="container-fluid staticpadding">
+                <div class="uselessAmeer"></div>
+                <h1 class="topSectionCenter">الخدمات</h1>
                 <div class="row">
-                    <div class="col-lg-4 text-center align-middle ft">
+                    <div class="col-sm-12 card-background">
+                        <img class="card-img" src="img/black_window.jpg" alt="">
+                        <p class="card-text">تعتيم كزاز السياره</p>
+                    </div>
+                    <div class="col-sm-12 card-background">
+                        <img class="card-img" src="img/black-cover.webp" alt="">
+                        <p class="card-text">اضافة غلاف فوق السياره</p>
+                    </div>
+                    <div class="col-sm-12 card-background">
+                        <img class="card-img" src="img/polish_car.jpg" alt="">
+                        <p class="card-text">عمل بوليش للسياره</p>
+                    </div>
+                    <div class="col-sm-12 card-background">
+                        <img class="card-img" src="img/inside.jpg" alt="">
+                        <p class="card-text">تركيب جميع اكسسوارات السياره</p>
+                    </div>
+                    <div class="col-sm-12 card-background">
+                        <img class="card-img" src="img/fuse_car.jpg" alt="">
+                        <p class="card-text">فحص أو تغير فيوز السيارة</p>
+                    </div>
+                    <div class="col-sm-12 card-background">
+                        <img class="card-img" src="img/car_light.jpg" alt="">
+                        <p class="card-text">تغير او فحص ضوء السيارة</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="coloredSection bg-light" id="aboutme">
+            <div class="container-fluid staticpadding">
+                <div class="uselessAmeer"></div>
+                <h1 class="topSectionCenter">معلومات عني</h1>
+                <div class="row">
+                    <div class="col-sm-12 text-center align-middle ft">
                         <div class="col1aboutme pt-3 pb-3 pe-0 ps-0">
                             <img class="aboutmeimg" src="img/me.jpg" alt="">
                         </div>
                     </div>
-                    <div class="col-lg-6 aboutmecontext">
+                    <div class="col-sm-12 aboutmecontext">
                         <h1 class="pb-4">My Name Wael Saleh</h1>
                         <p class="pb-3">وائل صالح [ابو الياس] خبره 5 سنين لتعديل السيارات</p>
                         <h3 class="pb-4">Age : <span style="color: #a38b6d;">27</span></h3>
@@ -136,27 +132,7 @@
                         <h3 class="pb-4">Phone : <span style="color: #a38b6d;">0598520637</span></h3>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!--Contact me section-->
-        <section>
-            <div class="container mt-4 pb-4 pt-4 bgcolorContact">
-                <div class="text-left">
-                    <a>Click to Visit</a><span>  </span><a></a>
-                </div>
-                <div class="text-center">
-                    <p>[أبو الياس كار لكماليات السيارات زورونا [طولكرم-عزبة شوفة- بجانب المسجد القديم</p>
-                </div>
-                <div class="text-center">
-                    Copyright 2021-2022 | All Rights Reserved.<br>
-                    AboEliasCar Website is Powered by Khaled Saleh.
-                </div>
-                <div class="text-center mt-1">
-                    <a href=""><img class="imgresize" src="service.png" alt=""></a>
-                   <a href="https://www.facebook.com/AboEliasCar"> <img class="imgresize" src="img/facebook.png" alt=""></a>
-                   <a href="https://www.tiktok.com/@waelsaleh0"> <img class="imgresize" src="img/tiktok.png" alt=""></a>
-                </div>
-            </div>
+            </div> 
         </section>
     </body>
 </html>
