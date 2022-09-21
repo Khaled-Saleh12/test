@@ -6,6 +6,9 @@
 a{
     font-family: 'Noto Sans Arabic', sans-serif;
 }
+.arabic{
+    font-family: 'Noto Sans Arabic', sans-serif;
+}
 .nav-item .nav-link{
     font-family: 'Montserrat', sans-serif; 
 }
@@ -61,6 +64,10 @@ a{
 .navbar .container-fluid{
     background-color: #2D2424;
 }
+.navbar{
+    border-bottom: solid;
+    border-color: #B85C38;
+}
 /* preview */
 #preview{
     margin-top: 4.5rem;
@@ -86,6 +93,7 @@ a{
     left: 0;
     background-color: #2D2424;
 }
+/* service */
 .card-img{
     width: 100%;
     height: 15rem;
@@ -93,6 +101,7 @@ a{
 .card-text{
     font-size: x-large;
     padding: 4% 0;
+    font-family: 'Noto Sans Arabic', sans-serif;
 }
 .row{
     padding: 0;
@@ -111,10 +120,28 @@ a{
     width: 100%;
     height: 5rem;
 }
-
+/* About me */
 .aboutmeimg {
     width: 90%;
     height: 25rem;
     border: solid;
     border-color: #2D2424;
+}
+
+/* foot */
+.text-right{
+    text-align: right !important;
+    font-size: 1.2rem;
+}
+.foot-text{
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: brown;
+    font-family: 'Noto Sans Arabic', sans-serif;
+}
+.foot-icon{
+    margin: 3% 2%;
+}
+.fa-tiktok{
+    color: black;
 }
